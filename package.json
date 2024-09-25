@@ -1,0 +1,21 @@
+{
+  "name": "twitter",
+  "version": "1.0.0",
+  "description": "a twitter clone",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon -r dotenv/config --experimental-json-modules src/index.js"
+  },
+  "keywords": [
+    "twitter"
+  ],
+  "author": "muazzam",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
